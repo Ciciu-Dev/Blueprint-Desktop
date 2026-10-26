@@ -1,0 +1,206 @@
+/* BLUEPRINT original theme overrides; Mint upstream CSS is not included. */
+
+/* === BLUEPRINT CUSTOM STYLES === */
+
+/* Dark, rounded top panel */
+.panel-top {
+    background-color: rgba(7, 12, 23, 0.96);
+    color: #dbeafe;
+    border-bottom: 1px solid #2563eb;
+    border-radius: 0 0 12px 12px;
+}
+
+/* Panel applet buttons */
+.panel-button {
+    color: #dbeafe;
+    transition-duration: 150;
+}
+
+/* Hover accent */
+.panel-button:hover {
+    background-color: rgba(37, 99, 235, 0.23);
+    color: #93c5fd;
+    border-radius: 8px;
+}
+
+/* Active applet */
+.panel-button:active,
+.panel-button:checked {
+    background-color: rgba(37, 99, 235, 0.35);
+    color: #60a5fa;
+    border-radius: 8px;
+}
+
+/* System indicator text */
+.panel-status-button {
+    color: #dbeafe;
+}
+
+/* === END BLUEPRINT === */
+
+/* === BLUEPRINT BOTTOM BAR V1 === */
+
+.panel-bottom {
+    background-color: rgba(7, 12, 23, 0.97);
+    color: #dbeafe;
+    border-radius: 12px 12px 0px 0px;
+    box-shadow: 0px -1px 0px rgba(37, 99, 235, 0.8);
+}
+
+.panel-bottom .applet-box:hover {
+    background-color: rgba(37, 99, 235, 0.22);
+    border-radius: 8px;
+}
+
+.panel-bottom .grouped-window-list-item-box:hover {
+    background-color: rgba(37, 99, 235, 0.25);
+    border-radius: 8px;
+}
+
+/* === END BLUEPRINT BOTTOM BAR === */
+
+/* === BLUEPRINT MENU V1 === */
+
+/* Main application menu */
+.appmenu-background .popup-menu-content {
+    background-color: #090f1c;
+    border: 1px solid #263c60;
+    border-radius: 14px;
+    color: #dbeafe;
+}
+
+/* Left sidebar */
+.appmenu-sidebar {
+    background-color: #0c1526;
+    border-color: #1e3a5f;
+    border-radius: 14px 0 0 14px;
+}
+
+/* Application categories */
+.appmenu-category-button {
+    border-radius: 8px;
+    color: #cbdcf7;
+}
+
+.appmenu-category-button:hover,
+.appmenu-category-button-selected {
+    background-color: rgba(37,99,235,0.28);
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+/* Application selection */
+.appmenu-application-button:hover,
+.appmenu-application-button-selected {
+    background-color: rgba(37,99,235,0.23);
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+/* Sidebar hover */
+.appmenu-sidebar-button:hover {
+    background-color: rgba(59,130,246,0.22);
+    border-radius: 8px;
+}
+
+/* Search field */
+#appmenu-search-entry {
+    background-color: #111e33;
+    border: 1px solid #28456f;
+    border-radius: 9px;
+    color: #e0edff;
+    caret-color: #60a5fa;
+}
+
+#appmenu-search-entry:focus {
+    border-color: #3b82f6;
+    background-color: #142541;
+}
+
+/* === END BLUEPRINT MENU === */
+
+/* === BLUEPRINT WORKSPACES V1 === */
+
+.workspace-button {
+    background-color: #17243a;
+    color: #9bb3d8;
+    border: 1px solid #263954;
+    border-radius: 12px;
+    padding: 3px 7px;
+    margin: 2px;
+    transition-duration: 150;
+}
+
+.workspace-button:hover {
+    background-color: #243d65;
+    color: #ffffff;
+}
+
+.workspace-button:outlined {
+    background-color: #2563eb;
+    color: #ffffff;
+    border: 1px solid #60a5fa;
+}
+
+/* === END BLUEPRINT WORKSPACES === */
+
+/* === BLUEPRINT MENU V2 START === */
+
+/* Dark menu surface */
+.appmenu-background .popup-menu-content {
+    background-color: #090f1c;
+    border: 1px solid #243c62;
+    border-radius: 14px;
+    padding: 0px;
+    color: #dbeafe;
+}
+
+/* Dark navy application area */
+.appmenu-right-box {
+    background-color: #090f1c;
+    border-radius: 0 14px 14px 0;
+}
+
+/* Blue-black sidebar */
+.appmenu-sidebar {
+    background-color: #101b2f;
+    border-color: #28436a;
+    border-radius: 14px 0 0 14px;
+}
+
+/* Selected categories */
+.appmenu-category-button-selected,
+.appmenu-category-button:hover {
+    background-color: rgba(37,99,235,0.30);
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+/* Selected applications */
+.appmenu-application-button-selected,
+.appmenu-application-button:hover {
+    background-color: rgba(37,99,235,0.25);
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+/* Sidebar buttons */
+.appmenu-sidebar-button:hover {
+    background-color: rgba(59,130,246,0.20);
+    border-radius: 8px;
+}
+
+/* Search field */
+#appmenu-search-entry {
+    background-color: #111e33;
+    color: #e0edff;
+    border: 1px solid #28456f;
+    border-radius: 9px;
+}
+
+#appmenu-search-entry:focus {
+    border: 1px solid #60a5fa;
+    background-color: #142541;
+}
+
+/* === BLUEPRINT MENU V2 END === */

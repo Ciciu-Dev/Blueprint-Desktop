@@ -1,0 +1,8 @@
+{
+  "uuid": "blueprint@local",
+  "name": "Blueprint System",
+  "description": "Custom blue clock and system monitor",
+  "version": "1.0",
+  "max-instances": "1",
+  "prevent-decorations": true
+}

@@ -1,0 +1,27 @@
+{
+  "accent": {
+    "type": "combobox",
+    "default": "blue",
+    "description": "Accent colour",
+    "options": {
+      "Electric blue": "blue",
+      "Ice cyan": "cyan",
+      "Violet": "violet"
+    }
+  },
+  "compact": {
+    "type": "switch",
+    "default": false,
+    "description": "Compact buttons (keep launcher width unchanged)"
+  },
+  "show-quick-access": {
+    "type": "switch",
+    "default": true,
+    "description": "Show Quick Access row"
+  },
+  "enable-pin-shortcut": {
+    "type": "switch",
+    "default": true,
+    "description": "Enable Ctrl+D to pin / unpin"
+  }
+}

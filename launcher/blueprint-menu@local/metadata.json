@@ -1,0 +1,7 @@
+{
+  "uuid": "blueprint-menu@local",
+  "name": "BLUEPRINT Launcher",
+  "description": "Custom black-and-blue application launcher",
+  "version": "1.0",
+  "max-instances": "1"
+}
